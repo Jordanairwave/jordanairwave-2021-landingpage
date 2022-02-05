@@ -1,0 +1,9 @@
+{
+  "name": "jordanairwave-2021-landingpage",
+  "version": "1.0.0",
+  "source": "src/index.php",
+  "main": "index.php",
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
