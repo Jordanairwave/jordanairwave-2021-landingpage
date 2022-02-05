@@ -11,8 +11,6 @@
 	<meta name="description" content="<?php echo $pageDescription; ?>" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<link href="css/main.css?v=<?php echo filemtime( 'assets/css/main.css' ) ?>" rel="stylesheet" type="text/css" />
-	
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -30,6 +28,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+	<link href="scss/scss.css" rel="stylesheet" type="text/css" />	
 	
 	<script>
 	  var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
