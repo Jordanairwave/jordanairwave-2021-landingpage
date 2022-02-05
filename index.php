@@ -1,6 +1,6 @@
 ﻿<?php
-	$pageTitle = 'Title Here';
-	$pageDescription = 'Page description here';
+	$pageTitle = 'Jordan Haines - Web Developer';
+	$pageDescription = 'Contact information for Jordan Haines. A web developer from Cheltenham, UK';
 	$socialImage = '';
 ?>
 <!DOCTYPE html>
