@@ -7,4 +7,8 @@ With this landing page, I wanted to replace Codekit with Parcel.
 ## ParcelJs
 Information to install parceljs can be found here: https://parceljs.org/getting-started/webapp/
 
-I am using Parcel V2.
+- Yarn
+- Parcel v2
+
+## Commands
+- yarn parcel
