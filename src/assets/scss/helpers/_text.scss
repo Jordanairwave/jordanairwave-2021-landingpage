@@ -7,42 +7,46 @@ html {
 	-webkit-text-size-adjust: none; 
 	-moz-text-size-adjust: none; 
 	-ms-text-size-adjust: none; 
-	font-size: 16px;
 }
 body { 
-	font-family: "Arial", sans-serif;
+	font-family: 'latoregular';
+	@include font-size(18px); 
 	line-height: 1.45; 
+	color: var(--white);
 }
 h1 { 
-	font-size: 2.25rem/*36px*/;  
+	font-family: 'latoblack';
+	@include font-size(36px);
 	line-height: 1.2;
 	margin-bottom: 15px; 
 }
 h2 { 
-	font-size: 1.5rem /*24px*/; 
+	font-family: 'latoblack';
+	@include font-size(24px);
 	line-height: 1.2;
 	margin-bottom: 15px; 
 }
 h3 { 
-	font-size: 1.125rem /*18px*/;  
+	font-family: 'latoblack';
+	@include font-size(18px);  
 	line-height: 1.2;
 	margin-bottom: 15px; 
 }
 h4 { 
-	font-size: 0.9375rem /*15px*/;  
+	font-family: 'latoblack';
+	@include font-size(15px); 
 	line-height: 1.2;
 	margin-bottom: 15px; 
 }
 h5 { 
-	font-size: 0.75rem/*12px*/;  
+	font-family: 'latoblack';
+	@include font-size(12px); 
 	margin-bottom: 15px; 
 }
 p { 
-	font-size: 1rem;
 	margin-bottom: 15px;   
 }
 li { 
-	font-size: 1rem;
 	margin-bottom: 5px; 
 }
 ul, ol { 
@@ -76,11 +80,11 @@ em {
 a:link,
 a:active,
 a:visited { 
-	text-decoration: none; 
-	color: $black; 
+	text-decoration: underline; 
+	color: var(--white);
 }
 a:hover,
 a:focus { 
-	text-decoration: underline; 
-	color: $black; 
+	text-decoration: none; 
+	color: var(--white);
 }

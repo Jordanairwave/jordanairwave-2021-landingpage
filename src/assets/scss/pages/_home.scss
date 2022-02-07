@@ -1,3 +1,27 @@
 /* ------------------------------------------------------------------------------------------------------
 	Home page styling
 ------------------------------------------------------------------------------------------------------*/
+.homepage-wrap {
+	position: relative;
+	display: block;
+	margin: 0 auto 0 auto;
+	padding: 0 20px 0 20px;
+	width: 100%;
+	max-width: 520px;
+}
+
+.social-button-list {
+	position: relative;
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	width: 100%;
+	max-width: 300px;
+
+	&__button {
+		display: block;
+		border-radius: 8px;
+		cursor: pointer;
+	}
+}
