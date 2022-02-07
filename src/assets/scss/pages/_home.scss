@@ -13,8 +13,8 @@
 .social-button-list {
 	position: relative;
 	display: block;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+	margin: 0 auto 50px auto;
+	padding: 30px 0 0 0;
 	list-style: none;
 	width: 100%;
 	max-width: 300px;
@@ -22,6 +22,45 @@
 	&__button {
 		display: block;
 		border-radius: 8px;
+		margin-bottom: 15px;
 		cursor: pointer;
+
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			text-align: center;
+			color: var(--white);
+			text-decoration: none;
+			opacity: 1;
+			transition: all 0.25s ease-in-out;
+			padding: 15px 10px 15px 10px;
+			line-height: 1.2;
+
+			svg {
+				display: block;
+				width: 20px;
+				height: auto;
+				margin-right: 10px;
+			}
+
+			&:hover {
+				opacity: 0.8;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__button--twitter {
+		background-color: var(--twiiter);
+	}
+
+	&__button--github {
+		background-color: var(--black);
+	}
+
+	&__button--linkedin {
+		background-color: var(--linkedin);
 	}
 }
