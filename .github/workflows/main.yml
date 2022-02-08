@@ -27,5 +27,5 @@ jobs:
         username: ${{ secrets.SERVER_USERNAME }} 
         password: ${{ secrets.FTP_PASSWORD }}
         method: sftp
-        local_dir: './dist'
+        local_dir: './dist/'
         remote_dir: '/home/191393/domains/jordanairwave.co.uk/html/'
