@@ -1,6 +1,6 @@
 {
   "name": "jordanairwave-20210landingpage",
-  "source": "src/index.html",
+  "source": ["src/index.html", "src/uses.html"],
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
