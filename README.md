@@ -12,3 +12,7 @@ Information to install parceljs can be found here: https://parceljs.org/getting-
 
 ## Commands
 - yarn parcel
+
+## Github Actions
+- https://github.com/marketplace/actions/fast-ftp
+Github action is used to deploy files to the server.  This is done on the Master branch.
