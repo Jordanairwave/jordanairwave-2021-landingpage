@@ -396,7 +396,7 @@ ul, ol {
 }
 ul {
   list-style-type: disc;
-  list-style-position: outside;
+  list-style-position: inside;
   margin-bottom: 15px;
 }
 ol {
