@@ -28,4 +28,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         method: sftp
         local_dir: './dist/'
-        remote_dir: '/home/191393/domains/jordanairwave.co.uk/html/'
+        remote_dir: '/public_html'
